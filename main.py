@@ -4,7 +4,7 @@ from prediction_helper import predict
 
 # Define the page layout
 st.title('Health Insurance Cost Predictor')
-
+st.link_button("Github ", "https://github.com/b-bhupendra/ml-project-premium-prediction", help="Click to show github code ")
 categorical_options = {
     'Gender': ['Male', 'Female'],
     'Marital Status': ['Unmarried', 'Married'],
